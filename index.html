@@ -4,11 +4,24 @@
     <meta charset="utf-8" />
     <meta name="author" content="Samir Solanki" />
     <meta name="description" content="Its an Responsive WebPage by showing two different Image" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SamirSolanki_ResponsiveImage</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <script type="text/javascript" src="js/script.js"></script>
+
+ 
+
+    <div class="Option1">
+      <h1>Landscape image</h1>
+      <picture>
+        <source srcset="images/IMGLandscape.png" media="(max-width: 700px)">
+        <img src="images/IMGPortrate.png" alt="Portrait_image" />
+      </picture>
+    </div>
+    <p style="text-align: center">This one is Landscape Image</p>
+    <img src="images/IMGPortrate.png" />
+
   </body>
 </html>
