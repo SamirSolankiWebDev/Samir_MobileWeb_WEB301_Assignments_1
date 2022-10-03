@@ -4,8 +4,24 @@ html, body{
     padding: 0;
 }
 
+img{
+    width: 100%;
+}
+
 @media screen and (min-width: 700px) {
     body{
         font-size: 12px;
+    }
+
+    p{
+      width: 650px;
+      text-align: center;
+      padding: 0px 20px 0px 20px;  
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    p{
+        width: 1000px;
     }
 }
